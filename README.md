@@ -1,13 +1,13 @@
-Project Title
+# Project Title
 
 Telco Customer Churn Prediction
 
-Overview
+## Overview
 
 This project is part of the Intro to Machine Learning and Deep Learning course.
 The main objective is to analyze the Telco Customer Churn Dataset and develop predictive models to understand key drivers of customer churn and forecast churn probability.
 
-Dataset
+## Dataset
 
 Source: Telco Customer Churn - Kaggle
 
@@ -15,7 +15,7 @@ Description: The dataset contains information about a telecommunication companyâ
 
 Problem Definition
 
-Task:
+## Task:
 
 Explore and analyze the dataset to extract insights.
 
@@ -27,9 +27,9 @@ Assess feature importance to explain model interpretability.
 
 Implement predictive models to classify churn vs. non-churn customers.
 
-Methodology
+## Methodology
 
-Data Preprocessing & Feature Engineering
+### Data Preprocessing & Feature Engineering
 
 Handle missing values and categorical encoding.
 
@@ -37,7 +37,7 @@ Feature scaling and transformation.
 
 Feature importance analysis to identify key drivers of churn.
 
-Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 Customer distribution analysis.
 
@@ -45,7 +45,7 @@ Correlation between churn and service attributes.
 
 Storytelling through feature insights.
 
-Model Development
+### Model Development
 Models are built using both from-scratch functions and machine learning libraries.
 
 Regression Models:
@@ -76,13 +76,13 @@ Multi-layer Perceptron (MLP)
 
 Dimensionality Reduction: Applied for SVM and Random Forest where appropriate.
 
-Model Training & Evaluation
+### Model Training & Evaluation
 
 Training and testing iterations with batch runs.
 
 Models saved and reloaded for testing consistency.
 
-Evaluation Metrics
+## Evaluation Metrics
 
 Performance is evaluated using multiple metrics:
 
@@ -102,7 +102,7 @@ R-Square (for regression tasks)
 
 Benchmarking plots (accuracy/loss curves)
 
-Results
+## Results
 
 Key features influencing churn identified.
 
@@ -110,7 +110,7 @@ Classification models compared in terms of predictive performance.
 
 Visualization of performance metrics provided for benchmarking.
 
-Future Work
+## Future Work
 
 Explore deep learning architectures (e.g., CNN, RNN) for churn prediction.
 
